@@ -1,0 +1,121 @@
+/* Registration Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #c1f0cc, #c2facb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration-container {
+    background: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #66f36f;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4ef26c;
+    box-shadow: 0 0 5px rgba(59, 239, 107, 0.5);
+}
+
+.register-button {
+    background-color: #75f761;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #83f070;
+}
+/* Background Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://eskipaper.com/images/stunning-leaves-wallpaper-1.jpg') no-repeat center center/cover;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+}
+
+/* Your login container styling */
+.login-container {
+    background: rgba(229, 237, 229, 0.9); /* Slightly transparent white for contrast */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Remaining styles for form, input, and button */
+.login-container h2 {
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}

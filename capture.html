@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Capture</title>
+    <link rel="stylesheet" href="capture.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Sign Language Visual Capture</h1>
+        <video id="video" autoplay></video>
+        <button id="capture-button">Capture</button>
+        <canvas id="canvas"></canvas>
+        <p id="status">Status: Waiting to capture...</p>
+    </div>
+   
+    <script src="capture.js"></script>
+    <script src="capture1.js"></script>
+    <script src="capture2.js"></script>
+    <script src="capture4.js"></script>
+
+
+
+    <script src="https://docs.opencv.org/4.x/opencv.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="opencv.js"></script>
+    <script>
+      console.log("TensorFlow.js and OpenCV.js are ready!");
+    </script>
+    
+    
+</body>
+</html>
+
